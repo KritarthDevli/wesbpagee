@@ -1,0 +1,348 @@
+*{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+.navbar
+{
+  height: 60px;
+  background-color: #131921;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.navlogo{
+  width: 100px;
+  height: 50px;
+  margin-bottom:3px;
+}
+.logo{
+  background-image: url(https://i0.wp.com/www.dafontfree.co/wp-content/uploads/2021/11/Amazon-Logo-Font-1-scaled.jpg?resize=2560%2C1578);
+  width: 100Px;
+height: 50px;  
+background-size: cover;
+mix-blend-mode:color-dodge;
+transform: translate(3px);
+}
+.border{
+  border: 1.5px solid transparent;
+}
+.border:hover{
+  border: 1.5PX SOLID white;
+}
+.address1{
+  color: #CCCCCC;
+  font-size: 0.85rem;
+margin-left: 5px;
+}
+.address2{
+font-size: 1rem;
+margin-left: 5px;
+}
+.addicon
+{
+  display: flex;
+  align-items: center;
+}
+.navsearch{
+display: flex;
+justify-content: space-evenly;
+width: 500px;
+height: 40px;
+background-color: rgb(240, 245, 245);
+border-radius: 3px;
+margin-left: 10px;
+}
+.search-select{
+  background-color: #f3f3f3;
+  text-align: center;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+  width: 50px;
+}
+.search-input{
+  width: 500px;
+}
+.searchicon{
+  width: 78px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+  background-color: rgb(255,170,0);
+}
+span{
+font-size: 0.7rem;
+}
+.navsecond{
+  font-size: 0.85rem;
+}
+.navsearch:hover{
+  border: 2px solid orange;
+}
+.panel{
+  height: 40px;
+  background-color: #222F3D;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.options p{
+  display: inline;
+  margin-left: 15px;
+}
+.options{
+  width: 80%;
+  font-size: 0.85rem;
+}
+.deals{
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.panelall{
+  font-weight: 700;
+  margin-right:10px;
+}
+.hero{
+  background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/WLA/2024/Launches24/OnePlus/Buds3/Launch/D112818071_WLD_OnePlus_allhero_3000x1200._CB584958658_.jpg);
+background-size: cover;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+}
+.heroimg{
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+width: 80%;
+margin-bottom: 25px;
+}
+.heroimg a{
+  color: #377b8e;
+}
+.Shop
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+background-color: rgb(115, 156, 186);
+}
+
+.box{
+  height: 300px;
+  width: 23%;
+  margin-left: 1px;
+  display: inline-block;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-bottom: 20px;
+
+}
+#site:hover{
+  color: orange;
+
+}
+.boximage{
+  height: 200px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-size: cover;
+}
+.content{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.content p{
+  color: rgb(115, 156, 186);
+}
+#or:hover{
+  color: orange;
+}
+sectionn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  rgb(115, 156, 186);
+  border-bottom:  30px solid  rgb(115, 156, 186);
+
+}
+.dealss{
+  height: 350px;
+  width: 97%;
+  background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/apparelGW/jan24atf/unrec/citi/pc-1_2x._CB584618827_.jpg);
+  background-size: cover;
+
+}
+#one{
+  color:  rgb(115, 156, 186);
+  margin-top: 20px;
+  margin-left: 15px;
+}
+#two{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+#one:hover{
+  color: orange;
+}
+.try{
+  height: 300px;
+  display: flex;
+justify-content: space-evenly;
+  background-color:  rgb(115, 156, 186);
+}
+.once{
+  width: 48%;
+  height: 250px;
+  background-color: white;
+  background-image: url(https://image.slidesdocs.com/responsive-images/background/living-room-sofa-decorative-painting-powerpoint-background_7f9010810a__960_540.jpg);
+  background-size:cover ;
+display: flex;
+align-items:center; 
+justify-content: center;
+  
+}
+
+.twice{
+
+  width: 48%;
+  height: 250px;
+  background-color: white;
+  background-image: url(https://assets.wsimgs.com/wsimgs/ab/images/dp/wcm/202246/0132/wilson-side-chair-xl.jpg);
+  background-size: cover;
+  display: flex;
+align-items:center; 
+justify-content: center;
+}
+#modern{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-style: italic;
+  
+}
+#modern:hover{
+  color: rgb(243, 180, 64);
+}
+#fur{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-style: italic;
+  }
+  #fur:hover{
+    color: rgb(243, 180, 64);
+  }
+  footer{
+    background-color: #37475a; 
+    color: white;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  .signin{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(115, 156, 186);
+
+  }
+  button{
+    background-color: #eba61d;
+    width: 250px;
+    height: 35px;
+    border: 1PX SOLID ORANGe;
+    border-radius: 8PX;
+  }
+  button:hover{
+   background-color: #f1b949;
+  }
+  footer:hover{
+    background-color: #485a6e;
+  }
+.contentt{
+  border-top: 50px solid  #232F3E;
+  height: 250px;
+  background-color: #232F3E;
+  display: flex;
+  justify-content: space-evenly;
+}
+  .div1{
+   
+    height: 200px;
+    width: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+  }
+  .div2{
+
+    height: 200px;
+    width: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .div3{
+
+    height: 200px;
+    width: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .div4{
+  
+    height: 200px;
+    width: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+.ending{
+  height: 150px;
+  background-color:  #232F3E;
+  color: white;
+  display: flex;
+justify-content: center;
+align-items: center;
+font-size: 12px;
+word-spacing: 10px;
+}
+.img{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232F3E;
+  }
+  .photo{
+    width: 90px;
+    height:30px;
+    margin-top: 60px;
+    background-image: url(https://www.pngplay.com/wp-content/uploads/3/White-Amazon-Logo-PNG-HD-Quality.png);
+    background-size: cover;
+
+  }
+  .byy{
+    background-color: #131A22;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(189, 173, 173);
+    font-size: 0.8rem;
+  }
